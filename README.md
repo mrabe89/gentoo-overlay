@@ -18,3 +18,6 @@
   * https://github.com/wmww/gtk-layer-shell
   * ebuild src:
     * 0.1.0: github.com/SuperTux88/gentoo-overlay/commit/825fe8ddae8833ba37d2eeaa38a12563997165df.patch
+* x11-misc/xcwd
+  * A tool that prints the cwd of the currently focused window.
+  * https://github.com/schischi/xcwd
