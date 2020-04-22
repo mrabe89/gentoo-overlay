@@ -22,11 +22,20 @@ SLOT="0"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	sys-libs/timezone-data"
 BDEPEND=""
 
 src_prepare()
 {
 	eapply "${FILESDIR}/pkg-config.patch"
 	cmake-utils_src_prepare
+}
+
+src_configure()
+{
+	local mycmakeargs=(
+		-DUSE_SYSTEM_TZ_DB=true
+	)
+	cmake-utils_src_configure
 }
