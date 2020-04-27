@@ -7,7 +7,7 @@
   * required for gui-apps/waybar
   * https://github.com/HowardHinnant/date
   * ebuild src:
-    * 2.4.1: github.com/SuperTux88/gentoo-overlay/commit/0a091fa5e733fc6429747fc24283b90ab38b9daa.patch
+    * 2.4.1_p20200125: https://data.gpo.zugaina.org/sorrow/dev-libs/date/
 * gui-apps/waybar
   * Highly customizable Wayland bar for Sway and Wlroots based compositors
   * https://github.com/Alexays/Waybar

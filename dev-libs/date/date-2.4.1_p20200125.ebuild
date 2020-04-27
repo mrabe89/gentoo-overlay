@@ -2,18 +2,16 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
+inherit cmake-utils git-r3
 
-inherit cmake-utils
-
-DESCRIPTION="A date and time library based on the C++11/14/17 <chrono> header"
+DESCRIPTION="A date and time library based on the C++11/14/17 <chrono> header "
 HOMEPAGE="https://github.com/HowardHinnant/date"
+EGIT_REPO_URI="https://github.com/HowardHinnant/date.git"
 
 if [[ ${PV} == 9999 ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/HowardHinnant/date.git"
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/HowardHinnant/date/archive/v${PV}.tar.gz"
+	EGIT_COMMIT="9a0ee2542848ab8625984fc8cdbfb9b5414c0082"
 	KEYWORDS="~amd64"
 fi
 
@@ -22,8 +20,7 @@ SLOT="0"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}
-	sys-libs/timezone-data"
+RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_prepare()
@@ -35,7 +32,10 @@ src_prepare()
 src_configure()
 {
 	local mycmakeargs=(
-		-DUSE_SYSTEM_TZ_DB=true
+		"-DUSE_SYSTEM_TZ_DB=true"
+		"-DBUILD_TZ_LIB=true"
+		"-DBUILD_SHARED_LIBS=true"
 	)
+
 	cmake-utils_src_configure
 }
