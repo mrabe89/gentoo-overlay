@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/HowardHinnant/date.git"
 if [[ ${PV} == 9999 ]]; then
 	KEYWORDS=""
 else
-	EGIT_COMMIT="9a0ee2542848ab8625984fc8cdbfb9b5414c0082"
+	EGIT_COMMIT="e12095f26fd523d13e7cffbc87b79775ce2a6f53"
 	KEYWORDS="~amd64"
 fi
 
