@@ -13,6 +13,11 @@
   * https://github.com/Alexays/Waybar
   * ebuild src:
     * 0.9.[01]: github.com/SuperTux88/gentoo-overlay/commit/5f45ea4cd3b924481aaaf55df18499db9f418624.patch
+* gui-apps/wofi:
+  * Launcher/menu program for wlroots based wayland compositors such as sway
+  * https://cloudninja.pw/docs/wofi.html
+  * ebuild src:
+    * 1.1.2: https://data.gpo.zugaina.org/sorrow/gui-apps/wofi/
 * gui-libs/gtk-layer-shell
   * A library to create panels and other desktop components for Wayland using the Layer Shell protocol
   * https://github.com/wmww/gtk-layer-shell
