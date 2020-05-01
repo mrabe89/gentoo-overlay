@@ -5,4 +5,9 @@
         <email>mrabe@hatdev.de</email>
         <name>Matthias Rabe</name>
     </maintainer>
+	<longdescription lang="en">
+		<![CDATA[
+			Launcher/menu program for wlroots based wayland compositors such as sway
+		]]>
+	</longdescription>
 </pkgmetadata>

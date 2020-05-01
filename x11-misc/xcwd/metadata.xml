@@ -9,6 +9,11 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
+	<longdescription lang="en">
+		<![CDATA[
+			A tool that prints the cwd of the currently focused window.
+		]]>
+	</longdescription>
 	<upstream>
 		<remote-id type="github">schischi/xcwd</remote-id>
 	</upstream>

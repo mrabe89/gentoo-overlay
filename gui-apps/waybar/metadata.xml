@@ -2,6 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
     <maintainer type="person">
+        <email>mrabe@hatdev.de</email>
+        <name>Matthias Rabe</name>
+    </maintainer>
+    <maintainer type="person">
         <email>bernardo@standard.ai</email>
         <name>Bernardo Meurer</name>
     </maintainer>
@@ -10,7 +14,9 @@
         <name>Aaron Bauman</name>
     </maintainer>
     <longdescription lang="en">
-        Highly customizable Wayland bar for Sway and Wlroots based compositors.
+		<![CDATA[
+			Highly customizable Wayland bar for Sway and Wlroots based compositors.
+		]]>
     </longdescription>
     <use>
         <flag name="gtk-layer-shell">Enable GTK Layer Shell for working Popups</flag>
