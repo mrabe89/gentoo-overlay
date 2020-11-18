@@ -2,6 +2,10 @@
 
 ## Packages
 
+* app-benchmarks/s-tui
+  * Stress-Terminal UI monitoring tool
+  * ebuild src:
+    * 1.0.2: https://data.gpo.zugaina.org/linxon/app-benchmarks/s-tui/
 * gui-apps/wofi:
   * Launcher/menu program for wlroots based wayland compositors such as sway
   * https://cloudninja.pw/docs/wofi.html
