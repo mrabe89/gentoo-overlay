@@ -19,6 +19,8 @@
 		<flag name="popups">Enable popup support with gtk-layer-shell</flag>
 		<flag name="pulseaudio">Enable support for volume control via PulseAudio</flag>
 		<flag name="tray">Enable support for tray</flag>
+		<flag name="udev">Enable support for udev</flag>
+		<flag name="wifi">Enable support for wifi/rfkill</flag>
 	</use>
 	<upstream>
 		<remote-id type="github">Alexays/Waybar</remote-id>
