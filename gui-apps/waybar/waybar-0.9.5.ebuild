@@ -46,7 +46,7 @@ DEPEND="
 		dev-libs/libappindicator
 	)
 	udev? ( virtual/libudev:= )
-	wifi? ( net-wireless/rfkill )
+	wifi? ( || ( sys-apps/util-linux net-wireless/rfkill ) )
 "
 RDEPEND="${DEPEND}"
 
